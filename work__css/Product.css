@@ -1,0 +1,61 @@
+.Product
+{
+	margin-top: 200px;
+	&__header
+	{
+
+		margin-left: 20px;
+		&__text
+		{
+			color: #4d636c;
+			font-family: "PT Sans";
+			font-size: 20px;
+			font-weight: 700;
+			line-height: 32px;
+			text-transform: uppercase;
+		}
+
+	}
+	&__Left
+	{
+		padding-left: 30px;
+		&__line
+		{
+			border: 1px solid #87b94f;
+			width: 40%;
+			display: flex;
+			justify-content: center;
+			margin-left: 5px;
+		
+		}	
+	}
+	&__Right
+	{
+		&__item__image
+		{
+			width: 164px;
+			height: 164px;
+		}
+		.owl-dots
+		{
+			visibility: hidden;
+		}
+		.owl-theme .owl-nav {
+			text-align: left;
+			margin:0px;
+		}
+		.owl-prev
+		{
+			visibility: hidden;
+		}
+		.owl-next
+		{
+			position: absolute;
+			right: -8%;
+			top: 20%;
+			font-size: 30px!important;
+			background: transparent!important;
+			color: #87b94f!important;
+		}
+	}
+}

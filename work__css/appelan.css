@@ -1,0 +1,110 @@
+.appeal
+{
+	position: relative;
+	margin-top: 300px;
+	&__image__right
+	{
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+	&__image__left
+	{
+		position: absolute;
+		bottom: 20%;
+		z-index: -1;
+		left: 0;
+	}
+	&__header
+	{
+		color: #4d636c;
+			font-family: "PT Sans";
+			font-size: 20px;
+			font-weight: 700;
+			line-height: 32px;
+			text-transform: uppercase;
+	}
+	&__Left
+	{
+		&__line
+		{
+			float: left;
+			 border: 1px solid #65a9df;
+			 width: 50%;
+
+		}
+	}
+	&__Right
+	{
+		&__image__right
+		{
+			position: absolute;
+		}
+		&__row
+		{
+			display: flex;
+		
+			&__Block
+			{	
+				width: 298px;
+				height: 386px!important;
+				margin: 10px;
+				background: White;
+				height: auto;
+				&__images
+				{
+				margin-top: 30px;
+				padding: 20px;
+				padding-bottom: 0px;
+				}
+				&__header
+				{
+					font-size: 18px;
+					font-family: "PT Sans";
+					color: #65a9df;
+					font-weight: 700;
+					line-height: 28px;
+					padding: 20px;
+					padding-bottom: 5px;
+				}
+				&__text
+				{
+					padding: 20px;
+					padding-top: 15px;
+					height: 169px;
+					color: #000000;
+					font-family: "PT Sans";
+					font-size: 18px;
+					font-weight: 400;
+					line-height: 28px;
+					font-weight: 400;
+				}
+			}
+		}
+		
+	}
+	&__text__button
+	{
+		margin-top: 40px;
+		&__header
+		{
+		margin-right: 10px;
+		 color: #4d636c;
+		 font-family: "PT Sans";
+		 font-size: 25px!important;
+		 font-weight: 700;
+		 line-height: 36px;
+		}
+		display: flex;
+		&__button
+		{
+			width: 213px;
+			height: 62px;
+			box-shadow: 3px 2px 7px rgba(114, 122, 161, 0.35);
+			border-radius: 31px;
+			background-color: #ffffff;
+			margin-left: 30px;
+		}
+	}
+	
+}

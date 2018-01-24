@@ -1,0 +1,83 @@
+.review
+{
+	
+	position: relative;
+	&__image
+	{
+		position: absolute;
+		
+		&__images
+		{
+			width: 100%;
+		}
+	}
+	&__row
+	{
+		margin-top: 20px;
+		margin-left: 20px;
+		&__Left
+		{
+			&__header
+			{
+				color: #4d636c;
+				font-family: "PT Sans";
+				font-size: 20px;
+				font-weight: 700;
+				line-height: 32px;
+				text-transform: uppercase;
+			}
+			&__line
+			{
+				border: 1px solid #ff8d3f;
+				width: 40%;
+				float: left;
+			}
+		}
+		&__Right
+		{
+			margin-top: 90px;
+			display: flex;
+			justify-content: center;
+			&__block
+			{
+				display: flex;
+    			flex-direction: column;
+    			align-items: center;
+    			justify-content: center;
+				margin-right: 30px;
+				width: 458px;
+				height: 386px;
+				background: White;
+				&__header
+				{	
+					margin-left: -200px;
+					display: flex;
+					&__text
+					{
+						margin-left: 15px;
+					color: #ff8d3f;
+					font-weight: 700;
+					font-family: "PT Sans";
+					font-size: 18px;
+					
+					line-height: 28px;
+					}
+				}
+				&__text
+				{
+					margin-top: 30px;
+					padding:0 auto;
+					width: 309px;
+					height: 265px;
+					color: #000000;
+					font-family: "PT Sans";
+					font-size: 18px;
+					font-weight: 400;
+					line-height: 28px;
+					font-weight: 400;
+				}
+			}
+		}
+		
+	}
+}

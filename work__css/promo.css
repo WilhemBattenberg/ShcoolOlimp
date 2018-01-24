@@ -1,0 +1,10 @@
+.promo
+{
+	&__picture
+	{
+		&__image
+		{
+			width: 100%;
+		}
+	}
+}

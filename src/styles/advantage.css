@@ -1,0 +1,108 @@
+.advantage
+{
+	margin-top: 30px;
+	position: relative;
+}
+	.advantage__header
+		{
+			color: #4d636c;
+			font-family: "PT Sans";
+			font-size: 20px;
+			font-weight: 700;
+			line-height: 32px;
+			text-transform: uppercase;
+		}
+	.advantage__Right
+	{
+		position: absolute;
+		left: 25%;
+		top: 30%;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		padding: 65px;
+		height: 300px;
+		background: #ffff;
+	}
+	.advantage__Right .owl-dots
+		{
+			
+		}
+	.advantage__Right .owl-prev
+		{
+			font-size: 20px!important;
+			position: absolute;
+    		left: -10%;
+    		top: 30%;
+    		 color:  #87b94f!important;
+    		background: White!important;
+			visibility: hidden;
+		}
+	.advantage__Right .owl-next
+		{
+			font-size: 20px!important;
+			 right: -10%;
+   			 top: 50%;
+   			 position: absolute;
+   			 background: White!important;
+   			 color:  #87b94f!important;
+		}
+	.advantage__Right .owl-theme .owl-dots .owl-dot span
+		{
+			border: 2px solid  #87b94f;
+			background:White;
+			border-radius: 0px;
+		}
+	.advantage__Right .owl-theme .owl-dots .owl-dot.active span, .advantage__Right .owl-theme .owl-dots .owl-dot:hover span
+		{
+			width: 15px;
+			height: 15px;
+			background: White !important;
+		}
+	.advantage__Right__description
+		{
+			margin-top: 60px;
+		}
+	.advantage__Right__description__header
+			{
+				color: #87b94f;
+				font-size: 20px;
+				font-weight: 700;
+				font-family: "PT Sans";
+				line-height: 28px;
+				margin-bottom: 15px;
+			}
+	.advantage__Right__description__list
+			{
+				margin-top: 10px;
+				color: #000000;
+				font-family: "PT Sans";
+				font-size: 18px;
+				font-weight: 400;
+				line-height: 28px;
+			}
+	.advantage__Right__description__list__row
+				{
+					padding: 10px;
+				}
+	.advantage__Right__description__list__row__icon
+					{
+						color: #87b94f;
+						font-weight: 400;
+						font-family: "PT Sant";
+						top: 0px;
+   						display: unset;	
+   						font-style: normal; 					
+ 						line-height: 0;
+ 						margin-right: 10px;
+					}
+	.advantage__Left__line
+		{
+			float: left;
+			 border: 1px solid #87b94f;
+			 width: 30%;
+
+		}

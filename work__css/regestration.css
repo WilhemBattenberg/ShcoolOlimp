@@ -1,0 +1,54 @@
+.Regestration
+{
+	position: relative;
+	&__image
+	{	
+		
+		&__image
+		{
+			z-index: -1;
+			position: absolute;
+			width: 99%;
+			height: 200px;
+		}
+	}
+	&__block
+	{
+		display: flex;
+		justify-content: center;
+		margin-top: 100px;
+
+		&__text
+		{
+			width: 60%;
+			border: none;
+			border-bottom: 1px Solid;
+			background: transparent;
+			height: 40px;
+		}
+		&__text::placeholder
+		{
+			color: #4d636c;
+			font-family: "PT Sans";
+			font-size: 30px;
+			font-weight: 700;
+			line-height: 30px;
+		}
+		&__button
+		{
+			margin-left: 30px;
+			margin-top: -20px;
+			width: 213px;
+			height: 62px;
+			border-radius: 31px;
+			background-color: #ffffff;
+			color: #65a9df;
+			font-family: "PT Sans";
+			font-size: 18px;
+			font-weight: 700;
+			line-height: 24px;
+			text-transform: uppercase;
+		}
+	}
+
+}

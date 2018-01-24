@@ -1,0 +1,32 @@
+.General__text__header__text
+		{
+			color: #4d636c;
+			font-family: "PT Sans";
+			font-size: 20px;
+			font-weight: 700;
+			line-height: 32px;
+			text-transform: uppercase;
+		}
+	.General__text__Right__text
+		{
+			margin-top: 15px;
+			color: #000000;
+			font-family: "PT Sans";
+			font-size: 18px;
+			font-weight: 400;
+			line-height: 28px;
+			padding-left: 15px;
+			padding-right: 15px;
+		}
+	.General__text__Right__text__header
+		 {
+		 	color: #ff8d3f;
+			font-weight: 700;
+		 }
+	.General__text__Left__line
+		{
+			float: left;
+			 border: 1px solid #ff8d3f;
+			 width: 50%;
+
+		}

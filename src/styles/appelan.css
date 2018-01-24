@@ -1,0 +1,107 @@
+.appeal
+{
+	position: relative;
+	margin-top: 300px;
+	
+}
+	.appeal__image__right
+	{
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+	.appeal__image__left
+	{
+		position: absolute;
+		bottom: 20%;
+		z-index: -1;
+		left: 0;
+	}
+	.appeal__header
+	{
+		color: #4d636c;
+			font-family: "PT Sans";
+			font-size: 20px;
+			font-weight: 700;
+			line-height: 32px;
+			text-transform: uppercase;
+	}
+	.appeal__Left__line
+		{
+			float: left;
+			 border: 1px solid #65a9df;
+			 width: 50%;
+
+		}
+	.appeal__Right__image__right
+		{
+			position: absolute;
+		}
+	.appeal__Right__row
+		{
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: flex;
+		}
+	.appeal__Right__row__Block
+			{	
+				width: 298px;
+				height: 386px!important;
+				margin: 10px;
+				background: White;
+				height: auto;
+			}
+	.appeal__Right__row__Block__images
+				{
+				margin-top: 30px;
+				padding: 20px;
+				padding-bottom: 0px;
+				}
+	.appeal__Right__row__Block__header
+				{
+					font-size: 18px;
+					font-family: "PT Sans";
+					color: #65a9df;
+					font-weight: 700;
+					line-height: 28px;
+					padding: 20px;
+					padding-bottom: 5px;
+				}
+	.appeal__Right__row__Block__text
+				{
+					padding: 20px;
+					padding-top: 15px;
+					height: 169px;
+					color: #000000;
+					font-family: "PT Sans";
+					font-size: 18px;
+					font-weight: 400;
+					line-height: 28px;
+					font-weight: 400;
+				}
+	.appeal__text__button
+	{
+		margin-top: 40px;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+	}
+	.appeal__text__button__header
+		{
+		margin-right: 10px;
+		 color: #4d636c;
+		 font-family: "PT Sans";
+		 font-size: 25px!important;
+		 font-weight: 700;
+		 line-height: 36px;
+		}
+	.appeal__text__button__button
+		{
+			width: 213px;
+			height: 62px;
+			-webkit-box-shadow: 3px 2px 7px rgba(114, 122, 161, 0.35);
+			        box-shadow: 3px 2px 7px rgba(114, 122, 161, 0.35);
+			border-radius: 31px;
+			background-color: #ffffff;
+			margin-left: 30px;
+		}

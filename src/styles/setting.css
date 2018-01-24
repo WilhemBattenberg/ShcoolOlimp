@@ -1,0 +1,14 @@
+@import "navigation.css";
+@import "promo.css";
+@import "General__text.css";
+@import "advantage.css";
+@import "appelan.css";
+@import "mackup.css";
+@import "review.css";
+@import "Product.css";
+@import "regestration.css";
+@import "contacs.css";
+body
+{
+	background: #F0F4F7;
+}

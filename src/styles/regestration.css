@@ -1,0 +1,77 @@
+.Regestration
+{
+	position: relative;
+
+}
+	.Regestration__image__image
+		{
+			z-index: -1;
+			position: absolute;
+			width: 99%;
+			height: 200px;
+		}
+	.Regestration__block
+	{
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+		margin-top: 100px;
+	}
+	.Regestration__block__text
+		{
+			width: 60%;
+			border: none;
+			border-bottom: 1px Solid;
+			background: transparent;
+			height: 40px;
+		}
+	.Regestration__block__text::-webkit-input-placeholder
+		{
+			color: #4d636c;
+			font-family: "PT Sans";
+			font-size: 30px;
+			font-weight: 700;
+			line-height: 30px;
+		}
+	.Regestration__block__text:-ms-input-placeholder
+		{
+			color: #4d636c;
+			font-family: "PT Sans";
+			font-size: 30px;
+			font-weight: 700;
+			line-height: 30px;
+		}
+	.Regestration__block__text::-ms-input-placeholder
+		{
+			color: #4d636c;
+			font-family: "PT Sans";
+			font-size: 30px;
+			font-weight: 700;
+			line-height: 30px;
+		}
+	.Regestration__block__text::placeholder
+		{
+			color: #4d636c;
+			font-family: "PT Sans";
+			font-size: 30px;
+			font-weight: 700;
+			line-height: 30px;
+		}
+	.Regestration__block__button
+		{
+			margin-left: 30px;
+			margin-top: -20px;
+			width: 213px;
+			height: 62px;
+			border-radius: 31px;
+			background-color: #ffffff;
+			color: #65a9df;
+			font-family: "PT Sans";
+			font-size: 18px;
+			font-weight: 700;
+			line-height: 24px;
+			text-transform: uppercase;
+		}

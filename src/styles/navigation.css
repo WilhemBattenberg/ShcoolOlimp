@@ -1,0 +1,32 @@
+.navigation
+{
+	margin-bottom: 30px;
+	margin-top: 20px;
+}
+	.navigation__in
+	{
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: end;
+		    -ms-flex-pack: end;
+		        justify-content: flex-end;
+    	-webkit-box-align: center;
+    	    -ms-flex-align: center;
+    	        align-items: center;
+		height: 50px;
+	}
+	.navigation__in__href
+		{
+			color: #ff8d3f;
+			font-family: "PT Sans";
+			font-size: 18px;
+			font-weight: 700;
+			line-height: 24px;
+			text-decoration: underline;
+			
+		}
+.--Right
+{
+	float: right;
+}
